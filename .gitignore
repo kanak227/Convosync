@@ -1,0 +1,57 @@
+# dependencies
+node_modules/
+dist/
+build/
+.env
+.env.*
+*.env
+*.local
+
+# OS
+.DS_Store
+Thumbs.db>
+
+# logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# editor
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# test coverage
+coverage/
+*.lcov
+
+# misc
+*.tgz
+
+# next.js
+.next/
+out/
+
+# vercel
+.vercel/
+
+# storybook
+storybook-static/
+
+# others
+*.pid
+*.seed
+*.pid.lock
+
+# firebase
+.firebase/
+
+# local
+local.env
