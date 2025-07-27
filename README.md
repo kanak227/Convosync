@@ -141,8 +141,7 @@ The application is configured for easy deployment:
 
 - 🔄 Backend serves static frontend files in production mode
 - ⚙️ Environment variables control configuration for different environments
-- 🌐 Ready for deployment on platforms like Heroku, Vercel, or any Node.js hosting service
-- 🔗 Currently deployed at: [convosync.vercel.app](https://convosync.vercel.app)
+- 🌐 Deployed on Render
 
 ## 👥 Contributing
 
