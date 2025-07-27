@@ -25,7 +25,7 @@ const Navbar = () => {
             <Link
               to={"/settings"}
               className={`
-              btn btn-sm gap-2 transition-colors p-4 rounded-full
+              btn btn-sm gap-2 transition-colors rounded-full
               
               `}
             >
@@ -35,7 +35,7 @@ const Navbar = () => {
 
             {authUser && (
               <>
-                <Link to={"/profile"} className={`btn btn-sm gap-2 p-4 rounded-full`}>
+                <Link to={"/profile"} className={`btn btn-sm gap-2 rounded-full`}>
                   <User className="size-5" />
                   <span className="hidden sm:inline">Profile</span>
                 </Link>
