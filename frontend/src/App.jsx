@@ -9,11 +9,11 @@ import { useAuthStore } from './store/useAuthStore';
 import { Loader } from 'lucide-react';
 import Profile from './pages/Profile.jsx';
 import { Toaster } from 'react-hot-toast';
-import { useThemeStore } from './store/useThemeStore.js';
+import { useThemeStore } from './store/useThemeStore';
 
 const App = () => {
   const {authUser , checkAuth , isCheckingAuth} = useAuthStore();
-  const theme = useThemeStore();
+  const {theme} = useThemeStore();
   useEffect(() =>{
     checkAuth();
   } , [checkAuth])

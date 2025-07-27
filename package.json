@@ -1,6 +1,52 @@
 {
+  "name": "convosync",
+  "version": "1.0.0",
+  "description": "A real time conversation app ..\r still under development",
+  "main": "index.js",
   "dependencies": {
+    "accepts": "^1.3.8",
+    "base64id": "^2.0.0",
+    "cookie": "^0.7.2",
+    "cors": "^2.8.5",
+    "csstype": "^3.1.3",
+    "debug": "^4.3.7",
+    "engine.io": "^6.6.4",
+    "engine.io-parser": "^5.2.3",
+    "goober": "^2.1.16",
+    "http": "^0.0.1-security",
     "lucide-react": "^0.526.0",
-    "react-hot-toast": "^2.5.2"
-  }
+    "mime-db": "^1.52.0",
+    "mime-types": "^2.1.35",
+    "ms": "^2.1.3",
+    "negotiator": "^0.6.3",
+    "object-assign": "^4.1.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-hot-toast": "^2.5.2",
+    "scheduler": "^0.26.0",
+    "socket": "^1.0.72",
+    "socket.io": "^4.8.1",
+    "socket.io-adapter": "^2.5.5",
+    "socket.io-parser": "^4.2.4",
+    "undici-types": "^7.8.0",
+    "vary": "^1.1.2",
+    "ws": "^8.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build" : "npm install --prefix frontend && npm install --prefix backend && npm run build --prefix frontend",
+    "start" : "npm run start --prefix backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kanak227/Convosync.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/kanak227/Convosync/issues"
+  },
+  "homepage": "https://github.com/kanak227/Convosync#readme"
 }
